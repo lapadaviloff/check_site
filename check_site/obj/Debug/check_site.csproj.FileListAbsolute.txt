@@ -1,0 +1,5 @@
+F:\project\c#\check_site\check_site\obj\Debug\check_site.csprojAssemblyReference.cache
+F:\project\c#\check_site\check_site\obj\Debug\check_site.Form1.resources
+F:\project\c#\check_site\check_site\obj\Debug\check_site.Properties.Resources.resources
+F:\project\c#\check_site\check_site\obj\Debug\check_site.csproj.GenerateResource.cache
+F:\project\c#\check_site\check_site\obj\Debug\check_site.csproj.CoreCompileInputs.cache
