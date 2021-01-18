@@ -1,0 +1,10 @@
+F:\project\c#\check_site\check_site\bin\Release\check_site.exe.config
+F:\project\c#\check_site\check_site\bin\Release\check_site.exe
+F:\project\c#\check_site\check_site\bin\Release\check_site.pdb
+F:\project\c#\check_site\check_site\obj\Release\check_site.csprojAssemblyReference.cache
+F:\project\c#\check_site\check_site\obj\Release\check_site.Form1.resources
+F:\project\c#\check_site\check_site\obj\Release\check_site.Properties.Resources.resources
+F:\project\c#\check_site\check_site\obj\Release\check_site.csproj.GenerateResource.cache
+F:\project\c#\check_site\check_site\obj\Release\check_site.csproj.CoreCompileInputs.cache
+F:\project\c#\check_site\check_site\obj\Release\check_site.exe
+F:\project\c#\check_site\check_site\obj\Release\check_site.pdb

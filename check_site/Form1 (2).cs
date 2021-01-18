@@ -39,7 +39,7 @@ namespace check_site
             this.Top = wArea.Height + wArea.Top - this.Height;
 
             //инициализация всплывающего сообщения
-           // if (System.IO.File.Exists("icon/empety.ico")
+
             empetyIcon = new Icon("icon/empety.ico");
             checkMailIcon = new Icon("icon/checkMail.ico");
             notifyIcon1.Icon = SystemIcons.Exclamation;
