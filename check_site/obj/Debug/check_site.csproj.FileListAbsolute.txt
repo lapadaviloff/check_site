@@ -8,3 +8,4 @@ F:\project\c#\check_site\check_site\bin\Debug\check_site.exe
 F:\project\c#\check_site\check_site\bin\Debug\check_site.pdb
 F:\project\c#\check_site\check_site\obj\Debug\check_site.exe
 F:\project\c#\check_site\check_site\obj\Debug\check_site.pdb
+F:\project\c#\check_site\check_site\obj\Debug\check_site.about.resources
