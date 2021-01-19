@@ -57,11 +57,13 @@ namespace check_site
             // 
             this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
             resources.ApplyResources(this.оПрограммеToolStripMenuItem, "оПрограммеToolStripMenuItem");
+            this.оПрограммеToolStripMenuItem.Click += new System.EventHandler(this.оПрограммеToolStripMenuItem_Click);
             // 
             // списокСайтовToolStripMenuItem
             // 
             this.списокСайтовToolStripMenuItem.Name = "списокСайтовToolStripMenuItem";
             resources.ApplyResources(this.списокСайтовToolStripMenuItem, "списокСайтовToolStripMenuItem");
+            this.списокСайтовToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
             // contextMenuStrip2
             // 
@@ -78,6 +80,7 @@ namespace check_site
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;

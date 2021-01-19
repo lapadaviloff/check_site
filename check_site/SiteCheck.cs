@@ -2,12 +2,17 @@
 
 namespace check_site
 {
-    
+    /// <summary>
+        /// создает обьект проверки
+        /// </summary>
     class SiteCheck
     {
        // private TestSite testsite = new TestSite();
 
         private readonly String StringUrl;
+        /// <summary>
+        /// создает обьект проверки
+        /// </summary>
         public SiteCheck( String url )
         {
             StringUrl = url;
@@ -15,12 +20,12 @@ namespace check_site
         }
        
         /// <summary>
-        /// возвращает статус сайта
+        /// возвращает сообщение о статусе сайта
         /// </summary>
         /// <returns></returns>
-        public messageAndFlag Refresh()
+        public MessageAndFlag Refresh()
         {
-            messageAndFlag message = new messageAndFlag();
+            MessageAndFlag message = new MessageAndFlag();
             if (TestSite.Test(StringUrl))
             {
                 message.message= "all correct";
