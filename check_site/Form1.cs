@@ -46,13 +46,14 @@ namespace check_site
             label1.Text = "Strart";
             //цикл работы программы
             timer.Tick += new EventHandler(Refresh);
-            timer.Interval = 3000; // Здесь измени интервал на 5000 (5 сек)
+            timer.Interval = 30000; // Здесь измени интервал на 5000 (5 сек)
             timer.Start();
             //программа в правом нижнем углу
             this.StartPosition = FormStartPosition.Manual;
             var wArea = Screen.PrimaryScreen.WorkingArea;
             this.Left = wArea.Width + wArea.Left - this.Width;
             this.Top = wArea.Height + wArea.Top - this.Height;
+            Refresh();
 
 //-----------------------------------------------------------------------------------------------//
             //настройка всплывающих сообщений
@@ -132,6 +133,16 @@ namespace check_site
                 ShowBalloon(siteCheck.Refresh().message);
             }
         }
+        public void Refresh()
+        {
+            label1.Text = siteCheck.Refresh().message;
+            if (!siteCheck.Refresh().flag)
+            {
+                ShowBalloon(siteCheck.Refresh().message);
+            }
+        }
+
+
 
         /// <summary>
         /// отображение сообщения
@@ -140,7 +151,7 @@ namespace check_site
         {
           
             notifyIcon1.BalloonTipText = balloon;
-            notifyIcon1.ShowBalloonTip(1);
+            notifyIcon1.ShowBalloonTip(20000);
         }
         //----------------------------------------------------------------------------------------------------------------------------//
         //действия contextMenuStrip1
