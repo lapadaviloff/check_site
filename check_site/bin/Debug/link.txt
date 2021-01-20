@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-http://miam-devsoft.ru/1
-=======
 http://example.com/
->>>>>>> 809f64b3b35734fb3841c2ecb1a8c792f42818ce
+
